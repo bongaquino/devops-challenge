@@ -24,7 +24,7 @@ aggregated_data=$(echo "$response" | jq -r '
   }) | .[] | .reasons |= map(select(.reason != null)) | .reasons[] | [.status, .reason, .occurrences] | @csv
 ')
 
-# Define the output file path
+# Define the output file path in the root directory
 output_file="../pipeline_job_summary.csv"
 
 # Output CSV header
