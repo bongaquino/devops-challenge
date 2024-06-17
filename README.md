@@ -65,3 +65,11 @@ Place the scripts in the following directory structure:
     │   └── fetch_and_aggregate.sh
     └── python
         └── generate_infographic.py
+
+### Usage
+
+1. **Make Scripts Executable**
+    - Ensure all scripts have executable permissions:
+    ```bash
+    chmod +x shell/fetch_and_aggregate.sh
+    chmod +x run.sh
