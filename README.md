@@ -45,7 +45,7 @@ This project fetches pipeline data from an API, aggregates the results, and gene
 
 5. **Install Python libraries**
     ```bash
-    pip3 install pandas matplotlib
+    pip install pandas matplotlib
 
 ### Configuration
 
