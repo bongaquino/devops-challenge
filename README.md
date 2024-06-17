@@ -29,18 +29,22 @@ This project fetches pipeline data from an API, aggregates the results, and gene
    brew install curl            # For macOS with Homebrew
 
 2. **Install jq**
+    ```bash
     sudo apt-get install jq      # For Debian/Ubuntu
     brew install jq              # For macOS with Homebrew
 
 3. **Install awk**
+    ```bash
     sudo apt-get install gawk    # For Debian/Ubuntu
     brew install gawk            # For macOS with Homebrew
 
 4. **Install Pythonn and pip**
+    ```bash
     sudo apt-get install python3 python3-pip    # For Debian/Ubuntu
     brew install python                         # For macOS with Homebrew
 
 5. **Install Python libraries**
+    ```bash
     pip3 install pandas matplotlib
 
 
