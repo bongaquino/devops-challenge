@@ -57,7 +57,6 @@ This project fetches pipeline data from an API, aggregates the results, and gene
 ### Directory Structure
 
 Place the scripts in the following directory structure:
-
     .
     ├── run.sh
     ├── shell
@@ -72,3 +71,28 @@ Place the scripts in the following directory structure:
     ```bash
     chmod +x shell/fetch_and_aggregate.sh
     chmod +x run.sh
+
+2. **Execute the run.sh Script**
+    - Run the script from the root directory:
+    ```bash
+    ./run.sh -v
+
+### Output
+
+1. **The script will generate two files in the root directory**
+    - pipeline_job_summary.csv: Aggregated pipeline data.
+    - pipeline_job_summary.jpg: Infographic showing the distribution of pipeline job statuses.
+
+### Troubleshooting
+
+1. **Failed to create CSV file**
+    - Ensure the fetch_and_aggregate.sh script has the correct path for the output file.
+    - Verify that the API endpoint and authorization token are correct.
+
+2. **Failed to create infographic**
+    - Ensure the CSV file was created successfully.
+    - Verify that the Python script has access to the necessary libraries.
+
+### Summary
+
+This project automates the process of fetching pipeline data, aggregating it, and generating an infographic. By following the instructions and setting up the necessary dependencies, you can visualize pipeline job statuses effectively.
