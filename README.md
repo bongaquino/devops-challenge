@@ -47,4 +47,9 @@ This project fetches pipeline data from an API, aggregates the results, and gene
     ```bash
     pip3 install pandas matplotlib
 
+### Configuration
 
+1. **Authorization Token**
+    - Update the fetch_and_aggregate.sh script inside the "shell" directory with your actual authorization token:
+        ```bash
+        AUTH_TOKEN="your_actual_token_here"
