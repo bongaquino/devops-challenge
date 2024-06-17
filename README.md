@@ -53,3 +53,15 @@ This project fetches pipeline data from an API, aggregates the results, and gene
     - Update the fetch_and_aggregate.sh script inside the "shell" directory with your actual authorization token:
     ```bash
     AUTH_TOKEN="your_actual_token_here"
+
+### Directory Structure
+
+Place the scripts in the following directory structure:
+
+   ```bash 
+    .
+    ├── run.sh
+    ├── shell
+    │   └── fetch_and_aggregate.sh
+    └── python
+        └── generate_infographic.py
