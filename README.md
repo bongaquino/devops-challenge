@@ -58,7 +58,6 @@ This project fetches pipeline data from an API, aggregates the results, and gene
 
 Place the scripts in the following directory structure:
 
-   ```bash 
     .
     ├── run.sh
     ├── shell
