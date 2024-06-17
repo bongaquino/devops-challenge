@@ -25,7 +25,7 @@ aggregated_data=$(echo "$response" | jq -r '
 ')
 
 # Define the output file path in the root directory
-output_file="../pipeline_job_summary.csv"
+output_file="../devops-challenge/pipeline_job_summary.csv"
 
 # Output CSV header
 echo "Status,Reason,Occurrences" > $output_file

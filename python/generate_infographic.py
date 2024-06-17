@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Define the file paths
-csv_file_path = '../pipeline_job_summary.csv'
-output_image_path = '../pipeline_job_summary.jpg'
+csv_file_path = '../devops-challenge/pipeline_job_summary.csv'
+output_image_path = '../devops-challenge/pipeline_job_summary.jpg'
 
 # Read the CSV file into a pandas DataFrame
 df = pd.read_csv(csv_file_path)

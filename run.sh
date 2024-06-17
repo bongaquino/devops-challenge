@@ -19,7 +19,7 @@ fi
 bash $SHELL_SCRIPT
 
 # Check if the CSV file was created successfully
-CSV_FILE="../pipeline_job_summary.csv"
+CSV_FILE="../devops-challenge/pipeline_job_summary.csv"
 if [ -f "$CSV_FILE" ]; then
     if [ "$VERBOSE" = true ]; then
         echo "CSV file created successfully: $CSV_FILE"
@@ -36,7 +36,7 @@ fi
 python3 $PYTHON_SCRIPT
 
 # Check if the infographic was created successfully
-IMAGE_FILE="../pipeline_job_summary.jpg"
+IMAGE_FILE="../devops-challenge/pipeline_job_summary.jpg"
 if [ -f "$IMAGE_FILE" ]; then
     if [ "$VERBOSE" = true ]; then
         echo "Infographic created successfully: $IMAGE_FILE"
